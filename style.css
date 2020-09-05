@@ -1,0 +1,48 @@
+body{
+	background-color: #8fc0a9;
+}
+.navbar {
+	background-color: #faf3dd;
+}
+.navbar-toggler {
+	background-color: white;
+}
+#sign-in-form {
+	background-color: white;
+	border:3px solid grey;
+	padding: 15px;
+}
+
+.carousel {
+	height: 40vh;
+}
+.carousel-item img {
+	height: 40vh;
+}
+
+
+@media (min-width: 992px) {
+	.carousel {
+		height: 60vh;
+	}
+	.carousel-item img {
+		height: 60vh;
+	}	
+}
+
+ul {
+	list-style-type: none;
+}
+
+@media (min-width: 768px) {
+	.card-img-top {
+		width: 30%;
+	}
+	.card-img-top img {
+		width: 100%;
+	}
+}
+
+#map {
+	width: 80%
+}
